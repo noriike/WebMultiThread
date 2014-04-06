@@ -58,19 +58,19 @@ namespace WebMultiThread.Logic
         {
             List<long> lsti = new List<long>();
             
-            for (int i = 1; i < 1000000; i++)
+            for (int i = 1; i < 100000; i++)
             {
                 if (w == 1)
                 {
-                   if(i>300000) continue;
+                   if(i>30000) continue;
                 }
                 else if (w == 2)
                 {
-                    if (!(i >= 300000 && i <= 700000)) continue;
+                    if (!(i >= 30000 && i <= 70000)) continue;
                 }
                 else if (w == 3)
                 {
-                    if (i<=700000) continue;
+                    if (i<=70000) continue;
                 }
                 else
                 {
